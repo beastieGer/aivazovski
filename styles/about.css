@@ -1,0 +1,55 @@
+.about {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-inline: 20px;
+  background-color: var(--bg-main-grey);
+  color: var(--color-main-black);
+  text-align: center;
+}
+
+.about-title {
+  margin-bottom: 42px;
+  font-weight: 700;
+  font-size: 34px;
+}
+
+.about-subtitle-ru,
+.about-subtitle-en {
+  margin: 0 auto;
+  margin-bottom: 11px;
+  max-width: 705px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.about-description-ru,
+.about-description-en {
+  margin: 0 auto;
+  margin-bottom: 15px;
+  max-width: 780px;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.about-subtitle-en {
+  margin-top: 15px;
+}
+
+.about-description-en {
+  margin: 0 auto;
+}
+
+@media (max-width:480px) {
+  .about {
+    padding-top: 50px;
+    padding-bottom: 60px;
+  }
+
+  .about-subtitle-ru,
+  .about-subtitle-en,
+  .about-description-ru,
+  .about-description-en {
+    font-size: 14px;
+  }
+}
